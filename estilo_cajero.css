@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    /*numero de columnas*/
+    grid-template-columns: 60% 20%;
+    gap:1em;
+    grid-template-rows: 300px 90px ;
+    align-items: stretch;
+}
+#paymentForm {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#paymentForm input, #paymentForm select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#paymentForm button {
+    margin-bottom: 10px;
+    width: 100%;
+}

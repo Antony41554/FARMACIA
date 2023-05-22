@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>INTERFAZ CAJERO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo_cajero.css">
+    <script src="evento_login.js" type="module"></script>
+    <script src="evento_cajero.js" type="module"></script>
+    <script src="boleta.js" type="module"></script>
+    
+</head>
+<body>
+    <div class="grid">
+        <textarea name="description-cajero1" rows="15" class="form-control"  placeholder="task description"></textarea>
+        <form id="paymentForm">
+            <button id="obtener-pedido">Obtener Pedido</button>
+            <select id="paymentMethod">
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta</option>
+            </select>
+            <input type="text" id="customerName" placeholder="Nombre del cliente">
+            <button id="finalizar-venta">Finalizar venta</button>
+        </form>
+        <textarea name="description-cajero2" rows="15" class="form-control"  placeholder="task description"></textarea>
+    </div>  
+</body>
+</html>

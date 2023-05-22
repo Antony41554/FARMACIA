@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    /*numero de columnas*/
+    grid-template-columns: 20% 60%;
+    gap:1em;
+    grid-template-rows: 300px 90px ;
+    align-items: stretch;
+}
+#productList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#productList button {
+    width: 80%;
+    margin: 5px;
+}
+#solito button {
+    width: 80%;
+    margin: 5px;
+    text-align: center;
+}

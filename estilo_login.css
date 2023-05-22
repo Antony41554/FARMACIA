@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    /*numero de columnas*/
+    grid-template-columns: 20% 60%;
+    gap:1em;
+    grid-template-rows: 300px 90px ;
+    align-items: stretch;
+}
+#loginForm {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#loginForm input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#loginForm button {
+    margin-bottom: 10px;
+    width: 100%;
+}
